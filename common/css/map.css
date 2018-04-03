@@ -1,0 +1,49 @@
+	/*#map1{width:100%; height: 820px;}*/
+	/*.gm-style .gm-style-iw{ left:26px !important; top:10 !important; max-width:255px !important; min-height:85px !important; min-width:304px !important;}*/
+	/*#map1 img { max-width: none !important; }
+	#map1 img[src*="icon"]{ width: 31px !important; height: 40px !important; max-width: 100% !important; height:  auto !important; }*/
+	
+	.localmap{width:100%; height: 820px;}
+	.localmap img { max-width: none !important; }
+	.localmap img[src*="icon"]{ width: 31px !important; height: 40px !important; max-width: 100% !important; height:  auto !important; }
+
+	
+	
+	.gm-style-iw { width: 355px !important; top: 15px !important; left: 0px !important; background-color: #fff; box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2); border-radius: 2px 2px 2px 2px; }
+	.gm-style-iw > div { max-width: 355px !important; }
+	.gm-style-iw img{ float:left; width:100%; }
+	.gm-style-iw h4, .gm-style-iw p { margin: 0;color: #000;font-family: 'Open Sans', sans-serif;font-size:13px; line-height: 15px; padding: 0;}
+	.gm-style-iw .headings span { font-size: 13px; font-weight: 700; display: block; padding: 17px 25px 7px; font-family: 'Source Sans Pro', sans-serif; }
+	.gm-style-iw .headings h3 { font-size: 20px; line-height: 24px; padding: 0 0 22px; }
+	.gm-style-iw a.watch_now { display: inline-block; font-size: 13px; letter-spacing: 0.03em; line-height: 18px; text-transform: uppercase; background: #ededed; color: #8b8b8b; padding: 9px 22px 9px 35px; text-align: center; position: relative; margin: 24px 0; font-weight: 700; font-family: 'Source Sans Pro', sans-serif; }
+	.gm-style-iw a.watch_now:after { content:""; position: absolute; left: 15px; top: 12px; width: 9px; height: 12px; background: url(../images/watch_more_bg.png) left center no-repeat; background-size: 16px; }
+	.gm-style-iw a.watch_now:hover { color: #fff; background: #a1a1a1; }
+	.gm-style-iw a.watch_now:hover:after { background-position: -8px 0; }
+	.gm-style-iw a.read_more { display: inline-block; font-size: 13px; line-height: 18px; text-transform: uppercase; background: #ededed; color: #8b8b8b; padding: 9px 22px 9px 35px; text-align: center; position: relative; margin: 24px 0; font-weight: 700; font-family: 'Source Sans Pro', sans-serif; }
+	.gm-style-iw a.read_more:after { content: ""; position: absolute; left: 15px; top: 13px; width: 10px; height: 15px; background: url(../images/read_more_bg.png) no-repeat 0 0; background-size: 20px; }
+	.gm-style-iw a.read_more:hover { color: #fff; background: #a1a1a1;}
+	.gm-style-iw a.read_more:hover:after { background-position:-10px 0; }
+	.gm-style-iw .paging { text-align: center; width:100%; bottom:17px; left:0; height:8px; text-align:center; position: absolute; z-index: 9999; }
+	.gm-style-iw .paging span { display: inline-block; width: 8px; opacity: 0.5; margin: 0 4px; height: 8px; background: #fff; border-radius: 50%; -webkit-border-radius: 50%; text-indent: -9999px; cursor: pointer; }
+	.gm-style-iw .paging span.cycle-pager-active { opacity: 1; }
+	.gm-style-iw .next_img { position: absolute; width:100%; height:100%; top:0; left:0; z-index: 9998;}
+	.gm-style-iw + div img { display: none !important; }
+	.gm-style-iw + div { width: 30px !important; height: 30px !important; opacity: 1!important; background:url(../images/close_btn.png) no-repeat; background-size: 30px; top:24px !important; right:11px !important; }
+	.img_slider:after { content:''; position: absolute; left: 0px; bottom: 0px; width: 100%; height: 70px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.15+46,0.36+93 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 46%, rgba(0,0,0,0.36) 93%, rgba(0,0,0,0.36) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 46%,rgba(0,0,0,0.36) 93%,rgba(0,0,0,0.36) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 46%,rgba(0,0,0,0.36) 93%,rgba(0,0,0,0.36) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#5c000000',GradientType=0 ); /* IE6-9 */ z-index: 9997; }
+	
+	/*
+	.gm-style-iw + div:hover { opacity: 0.7!important; }
+	.gm-style-iw + div:after { font-family: FontAwesome; font-size: 20px; position: absolute; left: 0px; top: 0px; line-height: 40px; text-align: center; width: 40px; height: 40px; content:"\f00d" }
+	*/
+	@media only screen and (max-width: 767px) { 
+		/*#map1 { height: 400px; }*/
+		.localmap { height: 400px; }
+
+		.gm-style-iw .headings h3 { font-size:18px; padding: 0 0 10px; line-height: 22px;  }
+		.gm-style-iw .headings span { padding: 10px 0 5px; }
+		.gm-style-iw { width: 210px !important; }
+	}
