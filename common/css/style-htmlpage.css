@@ -28,15 +28,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-
-
 
 table,
 th,
@@ -511,7 +506,11 @@ transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-t
 .intro_sec.mobile-part ul li figure{ transform: rotateX(0deg) translate3d(0px, 0px, 0px); -webkit-transform: rotateX(0deg) translate3d(0px, 0px, 0px); -moz-transform: rotateX(0deg) translate3d(0px, 0px, 0px); -ms-transform:rotateX(0deg) translate3d(0px, 0px, 0px); -o-transform:rotateX(0deg) translate3d(0px, 0px, 0px); }
 
 
-.intro_sec ul li figure:after{position:absolute; content:""; left:0; top:0; width:100%; height:100%;  z-index:1;}
+.intro_sec ul li figure:after{position:absolute; content:""; left:0; top:0; width:100%; height:100%;  z-index:1; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+67,000000+100&0+67,0.65+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 67%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 67%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 67%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */ }
 
 
 
@@ -521,16 +520,20 @@ transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-t
 
 .intro_sec ul li figure h3{  font-size:15px; line-height:21px; color:#fff; font-weight:600; letter-spacing:1px; font-family: 'Droid Sans', sans-serif; text-transform: uppercase; }
 
-.intro_sec ul li figure .chef_name { position: absolute; bottom: 10px; right: 0; padding: 5px 10px; background-color: #19191a; color: #ffffff; font-size: 12px; text-transform: uppercase; }
+.intro_sec ul li figure .chef_name { position: absolute; bottom: 25px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 22px; text-transform: capitalize; font-weight: bold; z-index: 2; }
+
+.intro_sec ul li figure .chef_name .arrow { font-size: 18px; }
+
+.intro_sec ul li figure .restaurant_location { position: absolute; bottom: 10px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 12px; text-transform: capitalize; z-index: 2; }
 
 .intro_sec ul li .intro_cont{ float:left; width:100%; position:relative; text-align:center; padding:10px 5px;}
-.intro_cont h3{ font-size:36px; line-height:36px; padding:5px 0 5px 0; font-family: 'Droid Serif', serif; letter-spacing: 0.5px; }
-.intro_cont p{ font-size:16px; line-height:26px; font-weight:400; color:#6c6c6c; max-width:700px; margin:0 auto; padding:15px 15px 5px;}
+.intro_cont h3{ font-size:38px; line-height:44x; padding:5px 0 5px 0; font-family: 'Droid Serif', serif; letter-spacing: normal; font-weight: bold; }
+.intro_cont p{ font-size:16px; line-height:26px; font-weight:400; color:#131414; max-width:700px; margin:0 auto; padding:5px 15px;}
 .intro_cont p a { font-weight: 700; color: #0a101f; text-decoration: none; }
 .intro_cont p a:hover { color: #0a101f; }
 
 .intro_cont span.create { color: #ccc; display: inline-block; font-size: 16px; line-height: 26px; font-weight: 700; letter-spacing: 1px;  padding: 0 10px 5px 0; text-transform: uppercase; }
-.intro_cont span.create a { color: #131414; }
+.intro_cont span.create a { color: #6c6c6c; }
 .intro_cont span.create br { display: none; }
 
 .intro_cont img{ vertical-align:top; margin-bottom: 10px; }
@@ -770,7 +773,7 @@ html { -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape whil
 
 .intro_sec ul li .intro_cont { position: absolute; top: 50%; transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); }
 
-.intro_sec .intro_cont h3 a { color: #131414; }
+.intro_sec .intro_cont h3 a { color: #9E3948; }
 .intro_sec .intro_cont a.btn{ display:inline-block; font-size:13px; letter-spacing: 0.06em; line-height:18px; text-transform:uppercase; background:#49a097; color:#fff; padding:9px 15px 9px 40px; text-align:center; position:relative;  margin: 0 0 18px; font-weight: 700; }
 .intro_sec .intro_cont a.btn:after{ content:""; position:absolute; left:8px; top:8px; width:20px; height:20px; border-radius: 50%; -webkit-border-radius: 50%; background: #fff url(http://www.foodandwine.com/microsites/restaurants-of-the-year/common/images/watch_more_bg1.png) left top no-repeat; background-size: 20px; }
 .intro_sec .intro_cont a.btn:hover{color:#8b8b8b; background:#ededed;}
