@@ -522,6 +522,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .intro_sec ul li figure .chef_name { position: absolute; bottom: 25px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 22px; text-transform: capitalize; font-weight: bold; z-index: 2; }
 
+/* Start - Adding DIV underline when hover over parent DIV */
+.intro_sec ul li figure .chef_name:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #fff;
+    width: 0;
+    -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+}
+.intro_sec ul li figure:hover .chef_name:after { width: 100%; }
+/* End - Adding DIV underline when hover over parent DIV */
+
 .intro_sec ul li figure .chef_name .arrow { font-size: 18px; }
 
 .intro_sec ul li figure .restaurant_location { position: absolute; bottom: 10px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 12px; text-transform: capitalize; z-index: 2; }
@@ -563,8 +575,8 @@ header a.block-title { display: block; text-align: center; color: #fff; font-siz
 .navigation ul.menu li.home a img { width: 18px; margin: auto; }
 .navigation ul.menu li.home a img + img { display: none; }
 .navigation ul.menu li.home a { padding-top: 12px; padding-bottom: 12px; font-size: 0; }
-.navigation ul.menu li a:hover { background:#49a097; color:#fff; z-index: 9; position: relative; font-weight: 700; }
-.navigation ul.menu li.active a, body.fixed .navigation ul.menu li.active a { font-weight: 700; background:#49a097; color:#fff; z-index: 9; position: relative; }
+.navigation ul.menu li a:hover { background:#9E3948; color:#fff; z-index: 9; position: relative; font-weight: 700; }
+.navigation ul.menu li.active a, body.fixed .navigation ul.menu li.active a { font-weight: 700; background:#9E3948; color:#fff; z-index: 9; position: relative; }
 .navigation ul.menu li.active { z-index: 9; position: relative; }
 .navigation ul.menu li.coming-soon a:hover { background: rgba(0,0,0,0.4); font-weight: 700; }
 .navigation ul.menu li.coming-soon a:hover { font-weight: 400; }

@@ -288,7 +288,7 @@
 .menu-bar .navigation ul.menu li a, body.fixed .menu-bar .navigation ul.menu li a { padding: 5px 10px 5px 35px; line-height: 30px; display: block; border-bottom: 1px solid rgba(255,255,255,0.2); letter-spacing: 0.1em; font-size: 16px; font-weight: 700; color: #fff; text-transform: uppercase; display: block; position: relative; }
 .menu-bar .navigation ul.menu li a span { display: block; line-height: 30px; }
 .menu-bar .navigation ul.menu li a img.desktop-icon { display:none; }
-.menu-bar .navigation ul.menu li a:hover, .menu-bar .navigation ul.menu li.active a { background: #49a097; border-color: #49a097; }
+.menu-bar .navigation ul.menu li a:hover, .menu-bar .navigation ul.menu li.active a { background: #9E3948; border-color: #9E3948; }
 .menu-bar .navigation ul.menu li.coming-soon a:hover { background: none; border-color: rgba(255,255,255,0.2); }
 .menu-bar .navigation ul.menu li.coming-soon a:hover { }
 .menu-bar .navigation ul.menu li.coming-soon a:hover span { font-weight: 400; }
