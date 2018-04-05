@@ -520,7 +520,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .intro_sec ul li figure h3{  font-size:15px; line-height:21px; color:#fff; font-weight:600; letter-spacing:1px; font-family: 'Droid Sans', sans-serif; text-transform: uppercase; }
 
-.intro_sec ul li figure .chef_name { position: absolute; bottom: 25px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 22px; text-transform: capitalize; font-weight: bold; z-index: 2; }
+.intro_sec ul li figure .chef_name { position: absolute; bottom: 25px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 18px; text-transform: capitalize; font-weight: bold; z-index: 2; }
 
 /* Start - Adding DIV underline when hover over parent DIV */
 .intro_sec ul li figure .chef_name:after {
@@ -539,12 +539,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .intro_sec ul li figure .restaurant_location { position: absolute; bottom: 10px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 12px; text-transform: capitalize; z-index: 2; }
 
 .intro_sec ul li .intro_cont{ float:left; width:100%; position:relative; text-align:center; padding:10px 5px;}
-.intro_cont h3{ font-size:38px; line-height:44x; padding:5px 0 5px 0; font-family: 'Droid Serif', serif; letter-spacing: normal; font-weight: bold; }
-.intro_cont p{ font-size:16px; line-height:26px; font-weight:400; color:#131414; max-width:700px; margin:0 auto; padding:5px 15px;}
+.intro_cont h3{ font-size:30px; line-height:36px; padding:5px 0 5px 0; font-family: 'Droid Serif', serif; letter-spacing: normal; font-weight: bold; }
+.intro_cont p{ font-size:16px; line-height:26px; font-weight:400; color:#131414; max-width:700px; margin:0 auto; padding:0px 0px 15px 0px;}
 .intro_cont p a { font-weight: 700; color: #0a101f; text-decoration: none; }
 .intro_cont p a:hover { color: #0a101f; }
 
-.intro_cont span.create { color: #ccc; display: inline-block; font-size: 16px; line-height: 26px; font-weight: 700; letter-spacing: 1px;  padding: 0 10px 5px 0; text-transform: uppercase; }
+.intro_cont span.create { color: #ccc; display: inline-block; font-size: 14px; line-height: 26px; font-weight: 700; letter-spacing: 1px;  padding: 0 10px 5px 0; text-transform: uppercase; }
 .intro_cont span.create a { color: #6c6c6c; }
 .intro_cont span.create br { display: none; }
 
@@ -797,7 +797,7 @@ html { -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape whil
 .intro_sec ul { overflow: visible; }
 
 .intro_cont p { padding-bottom: 10px; }
-.intro_cont h3 { font-size: 36px; line-height: 48px; padding-bottom: 5px; }
+.intro_cont h3 { font-size: 30px; line-height: 36px; padding-bottom: 5px; }
 .intro_sec ul li .intro_cont a.btn { margin-bottom: 10px; }
 .intro_sec ul li .intro_cont { min-height: 220px; padding-top: 15px; }
 

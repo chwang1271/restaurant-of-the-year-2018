@@ -10,7 +10,7 @@
 	.navigation ul.menu li.home a { padding-top: 10px; padding-bottom: 10px; }
 	body.fixed .navigation ul.menu li.home a { padding-top: 10px; padding-bottom: 10px; }
 
-	.intro_cont h3 { font-size: 38px; line-height: 44px; color: #9E3948; }
+	.intro_cont h3 { font-size: 30px; line-height: 44px; color: #9E3948; }
 	/*.intro_cont p { font-size: 16px; line-height: 24px; padding: 0 10px 10px;} */
 	/*.intro_cont img { width: 120px; }*/
 	.intro_sec ul li .intro_cont { padding-top: 25px; min-height: 220px; }
@@ -187,7 +187,7 @@
 	.block_banner .map-icon { top: 42%; }
 	header .right-logo { padding: 0; width: 170px; top: 13px; }
 
-	.intro_cont h3 { font-size: 36px; line-height: 36px; }
+	.intro_cont h3 { font-size: 30px; line-height: 36px; }
 	.intro_cont p { padding-bottom: 23px; }
 	.intro_sec .intro_cont a.btn { margin-bottom: 20px; }
 	.intro_sec ul li .intro_cont { min-height: 50px; padding: 28px 10px 15px; }
@@ -302,8 +302,8 @@
 .menu-bar .navigation ul.menu li a:hover img.hover-icon, .menu-bar .navigation ul.menu li.active a img.hover-icon { display: block; }
 
 
-.logos .logos-fw-logo {position: absolute; left: 67px; top: 20px;}
-.logos .logos-fw-title {position: absolute; left: 239px; top: 21px; color: #ffffff; font-size: 17px; font-family: 'Droid Serif', serif; letter-spacing: 1px; }
+.logos .logos-fw-logo {position: absolute; left: 67px; top: 24px; }
+.logos .logos-fw-title {position: absolute; left: 190px; top: 20px; color: #ffffff; font-size: 17px; font-family: 'Droid Serif', serif; letter-spacing: 1px; }
 .logos .logos-fw-title a { color: #ffffff; }
 
 @media only screen and (min-width: 769px) {
