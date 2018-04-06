@@ -522,6 +522,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .intro_sec ul li figure .chef_name { position: absolute; bottom: 25px; left: 12px; padding: 5px 10px; color: #ffffff; font-size: 18px; text-transform: capitalize; font-weight: bold; z-index: 2; }
 
+/* Start - Adding background image hover zoom effect */
+/*.intro_sec ul li:hover figure,
+.intro_sec ul li:focus figure {
+  transform: scale(1.2);
+	transition: all .5s;
+}*/
+/* End - Adding background image hover zoom effect */
+
 /* Start - Adding DIV underline when hover over parent DIV */
 .intro_sec ul li figure .chef_name:after {
     content: '';
