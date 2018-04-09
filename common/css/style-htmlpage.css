@@ -556,7 +556,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .intro_cont span.create a { color: #6c6c6c; }
 .intro_cont span.create br { display: none; }
 
-.intro_cont img{ vertical-align:top; margin-bottom: 10px; }
+.intro_cont img{ vertical-align:top; margin-bottom: 0; }
 
 .intro_cont .dek { max-width: 495px; }
 
